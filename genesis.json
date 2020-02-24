@@ -1,5 +1,5 @@
 {
-    "genesis_time": "2020-02-24T14:00:00.000000Z",
+    "genesis_time": "2020-02-24T06:00:00.000000Z",
     "chain_id": "nch-testnet",
     "consensus_params": {
         "block": {
