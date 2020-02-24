@@ -1,5 +1,5 @@
 {
-    "genesis_time": "2020-02-23T14:10:56.223557Z",
+    "genesis_time": "2020-02-24T14:00:00.000000Z",
     "chain_id": "nch-testnet",
     "consensus_params": {
         "block": {
@@ -7569,6 +7569,126 @@
                 "module_permissions": [
                     ""
                 ]
+            },
+            {
+                "address": "nch1ra02wuvm5jxmkv4tk24mtt25ue3c3rkqedppke",
+                "coins": [
+                    {
+                        "denom": "pnch",
+                        "amount": "100000000000000000"
+                    }
+                ],
+                "sequence_number": "0",
+                "account_number": "0",
+                "original_vesting": [],
+                "delegated_free": [],
+                "delegated_vesting": [],
+                "start_time": "0",
+                "end_time": "0",
+                "module_name": "",
+                "module_permissions": [
+                    ""
+                ]
+            },
+            {
+                "address": "nch1x0axf25srye0sj7zdghw0cx98f5cmqkemsch8f",
+                "coins": [
+                    {
+                        "denom": "pnch",
+                        "amount": "100000000000000000"
+                    }
+                ],
+                "sequence_number": "0",
+                "account_number": "0",
+                "original_vesting": [],
+                "delegated_free": [],
+                "delegated_vesting": [],
+                "start_time": "0",
+                "end_time": "0",
+                "module_name": "",
+                "module_permissions": [
+                    ""
+                ]
+            },
+            {
+                "address": "nch1x0axf25srye0sj7zdghw0cx98f5cmqkemsch8f",
+                "coins": [
+                    {
+                        "denom": "pnch",
+                        "amount": "100000000000000000"
+                    }
+                ],
+                "sequence_number": "0",
+                "account_number": "0",
+                "original_vesting": [],
+                "delegated_free": [],
+                "delegated_vesting": [],
+                "start_time": "0",
+                "end_time": "0",
+                "module_name": "",
+                "module_permissions": [
+                    ""
+                ]
+            },
+            {
+                "address": "nch16vmdfgcr4pcry5k9ur3gfg3l9xf39sx8das7lu",
+                "coins": [
+                    {
+                        "denom": "pnch",
+                        "amount": "100000000000000000"
+                    }
+                ],
+                "sequence_number": "0",
+                "account_number": "0",
+                "original_vesting": [],
+                "delegated_free": [],
+                "delegated_vesting": [],
+                "start_time": "0",
+                "end_time": "0",
+                "module_name": "",
+                "module_permissions": [
+                    ""
+                ]
+            },
+            {
+                "address": "nch13dwwe6pv92ve9uy8k2u7006a9fd9jwc6gzqx0e",
+                "coins": [
+                    {
+                        "denom": "pnch",
+                        "amount": "1000000000000000000"
+                    }
+                ],
+                "sequence_number": "0",
+                "account_number": "0",
+                "original_vesting": [],
+                "delegated_free": [],
+                "delegated_vesting": [],
+                "start_time": "0",
+                "end_time": "0",
+                "module_name": "",
+                "module_permissions": [
+                    ""
+                ]
+            },
+            {
+                "address": "nch1zvweukts45nt3x032jr0ay2yqnlqatu466d24q",
+                "coins": [
+                    {
+                        "denom": "pnch",
+                        "amount": "1000000000000000000"
+                    }
+                ],
+                "sequence_number": "0",
+                "account_number": "0",
+                "original_vesting": [],
+                "delegated_free": [],
+                "delegated_vesting": [],
+                "start_time": "0",
+                "end_time": "0",
+                "module_name": "",
+                "module_permissions": [
+                    ""
+                ]
             }
         ],
         "gov": {
@@ -7626,46 +7746,165 @@
                 {
                     "type": "nch/StdTx",
                     "value": {
-                        "msg": [
-                            {
-                                "type": "nch/MsgCreateValidator",
+                        "msg": [{
+                            "type": "nch/MsgCreateValidator",
+                            "value": {
+                                "description": {
+                                    "moniker": "netcloth",
+                                    "identity": "",
+                                    "website": "",
+                                    "details": ""
+                                },
+                                "commission": {
+                                    "rate": "0.100000000000000000",
+                                    "max_rate": "0.200000000000000000",
+                                    "max_change_rate": "0.010000000000000000"
+                                },
+                                "min_self_delegation": "1",
+                                "delegator_address": "nch13dwwe6pv92ve9uy8k2u7006a9fd9jwc6gzqx0e",
+                                "validator_address": "nchvaloper13dwwe6pv92ve9uy8k2u7006a9fd9jwc6nr55u4",
+                                "pubkey": "nchvalconspub1zcjduepq304l20dud4fehfxftcpe0rv2r0j40dcssdh5fs7p967hsahwdnjqjwuux4",
                                 "value": {
-                                    "description": {
-                                        "moniker": "local-nch",
-                                        "identity": "",
-                                        "website": "",
-                                        "details": ""
-                                    },
-                                    "commission": {
-                                        "rate": "0.100000000000000000",
-                                        "max_rate": "0.200000000000000000",
-                                        "max_change_rate": "0.010000000000000000"
-                                    },
-                                    "min_self_delegation": "1",
-                                    "delegator_address": "nch13f5tmt88z5lkx8p45hv7a327nc0tpjzlwsq35e",
-                                    "validator_address": "nchvaloper13f5tmt88z5lkx8p45hv7a327nc0tpjzl435r84",
-                                    "pubkey": "nchvalconspub1zcjduepq93k70lur24xtl5zdcd7596f54tck7yfdgzxmedv30md8xx6pu92srjwyt3",
-                                    "value": {
-                                        "denom": "pnch",
-                                        "amount": "10000000000000000000"
-                                    }
+                                    "denom": "pnch",
+                                    "amount": "1000000000000000000"
                                 }
                             }
-                        ],
+                        }],
                         "fee": {
                             "amount": [],
                             "gas": "100000"
                         },
-                        "signatures": [
-                            {
-                                "pub_key": {
-                                    "type": "tendermint/PubKeySecp256k1",
-                                    "value": "AjJLEV6oaYKEzpplQfoxeSo1YbVftXH6jTEqUTNv3gaj"
+                        "signatures": [{
+                            "pub_key": {
+                                "type": "tendermint/PubKeySecp256k1",
+                                "value": "Awr8DyzH0jUKExpjigPJHgbBI37yX6opS/GPav9kGEfg"
+                            },
+                            "signature": "3jjxhv2POeyw/QmXRJrM9LDjidwD3J/TAOIQFxKUb4BC6HIyaJMTLlveG4X2gg3HwPpLQ3EjbM3O6JdoKrTjkg=="
+                        }],
+                        "memo": "32171991bbf4edf2302e61d520f72cb9104e3a53@13.58.188.155:26656"
+                    }
+                },
+                {
+                    "type": "nch/StdTx",
+                    "value": {
+                        "msg": [{
+                            "type": "nch/MsgCreateValidator",
+                            "value": {
+                                "description": {
+                                    "moniker": "node",
+                                    "identity": "",
+                                    "website": "",
+                                    "details": ""
                                 },
-                                "signature": "dB63ZbOAJ4BhIrfPPF/vZ1LsDabpEkxOn9GfLml2atILCyltcLS52Oq5VtcD9VZv6Yd4dN/8D0a3SaVjIniGYA=="
+                                "commission": {
+                                    "rate": "0.100000000000000000",
+                                    "max_rate": "0.200000000000000000",
+                                    "max_change_rate": "0.010000000000000000"
+                                },
+                                "min_self_delegation": "1",
+                                "delegator_address": "nch1ra02wuvm5jxmkv4tk24mtt25ue3c3rkqedppke",
+                                "validator_address": "nchvaloper1ra02wuvm5jxmkv4tk24mtt25ue3c3rkqzv4n94",
+                                "pubkey": "nchvalconspub1zcjduepq24jjre3z2sy8jlh66j3m30537c8n08aew0r6zxllnmhhx244arvqcgn5kw",
+                                "value": {
+                                    "denom": "pnch",
+                                    "amount": "100000000000000"
+                                }
                             }
-                        ],
-                        "memo": "65fff2748de8924dde122c700ddfef060bb840f9@192.168.1.6:26656"
+                        }],
+                        "fee": {
+                            "amount": [],
+                            "gas": "100000"
+                        },
+                        "signatures": [{
+                            "pub_key": {
+                                "type": "tendermint/PubKeySecp256k1",
+                                "value": "A3j5XInBAQ04YHkSlfDXwj/YVReBXvqlXw18Y5TjP0s4"
+                            },
+                            "signature": "IrGTt6Nmk3p+Qpwwem/RKXtsYQcOFOj2I4mTw88jeOpD61YGjL2J6TDNUiPjcBrUs6psS4ZaTBPaxN4FF8cjTg=="
+                        }],
+                        "memo": "6c13ec780639f5cc2f598432020fe7bffde50c88@13.124.101.63:26656"
+                    }
+                },
+                {
+                    "type": "nch/StdTx",
+                    "value": {
+                        "msg": [{
+                            "type": "nch/MsgCreateValidator",
+                            "value": {
+                                "description": {
+                                    "moniker": "sky",
+                                    "identity": "",
+                                    "website": "",
+                                    "details": ""
+                                },
+                                "commission": {
+                                    "rate": "0.100000000000000000",
+                                    "max_rate": "0.200000000000000000",
+                                    "max_change_rate": "0.010000000000000000"
+                                },
+                                "min_self_delegation": "1",
+                                "delegator_address": "nch1zvweukts45nt3x032jr0ay2yqnlqatu466d24q",
+                                "validator_address": "nchvaloper1zvweukts45nt3x032jr0ay2yqnlqatu4pmecxv",
+                                "pubkey": "nchvalconspub1zcjduepqnfzw4zy3gxdvxxd9g3z4feda9r53r8hyyecw5sjzksehluwl3cfs5csfp5",
+                                "value": {
+                                    "denom": "pnch",
+                                    "amount": "100000000000000"
+                                }
+                            }
+                        }],
+                        "fee": {
+                            "amount": [],
+                            "gas": "100000"
+                        },
+                        "signatures": [{
+                            "pub_key": {
+                                "type": "tendermint/PubKeySecp256k1",
+                                "value": "A61ZyXqyMpKVxLc8Zjow3qTKJeN4p59lGB1IRPbZBHIT"
+                            },
+                            "signature": "wKyERJ8YslGbNCFxgSVNEIUcmt9n8I9kEEzaUq8T+mx6Kl1JDDu8fXkRJmwZgSFgoPNk5HZ/Z3vNv/5jKPBFgg=="
+                        }],
+                        "memo": "60fd09e613363325bd21786962265ac2771ed7a9@18.191.12.61:26656"
+                    }
+                },
+                {
+                    "type": "nch/StdTx",
+                    "value": {
+                        "msg": [{
+                            "type": "nch/MsgCreateValidator",
+                            "value": {
+                                "description": {
+                                    "moniker": "beta",
+                                    "identity": "",
+                                    "website": "",
+                                    "details": ""
+                                },
+                                "commission": {
+                                    "rate": "0.100000000000000000",
+                                    "max_rate": "0.200000000000000000",
+                                    "max_change_rate": "0.010000000000000000"
+                                },
+                                "min_self_delegation": "1",
+                                "delegator_address": "nch16vmdfgcr4pcry5k9ur3gfg3l9xf39sx8das7lu",
+                                "validator_address": "nchvaloper16vmdfgcr4pcry5k9ur3gfg3l9xf39sx8kuyvvs",
+                                "pubkey": "nchvalconspub1zcjduepq52u8g885xggfcmsw8kl3h93r59qwy05a7gpmuhhxestzerr7dqnqd5vslw",
+                                "value": {
+                                    "denom": "pnch",
+                                    "amount": "100000000000000"
+                                }
+                            }
+                        }],
+                        "fee": {
+                            "amount": [],
+                            "gas": "100000"
+                        },
+                        "signatures": [{
+                            "pub_key": {
+                                "type": "tendermint/PubKeySecp256k1",
+                                "value": "AiiMiGa/K1gWTd16PBPx1TUfZ5WT4CQFVwDeziEVSFpX"
+                            },
+                            "signature": "PPSKsHEE0rJit61F36BR9t1Wee8TTedcAnVXRSjrZLNpb4eu3+YLffBDu7irc8af3DeUPPd6Jrtq3gtUZcXvcg=="
+                        }],
+                        "memo": "1be76d5483670e3cff8fe190c35da67f40e33e5b@47.56.83.133:26656"
                     }
                 }
             ]
